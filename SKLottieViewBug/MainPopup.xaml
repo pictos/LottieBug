@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<toolkit:Popup
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+    xmlns:skia="clr-namespace:SkiaSharp.Extended.UI.Controls;assembly=SkiaSharp.Extended.UI"
+    x:Class="SKLottieViewBug.MainPopup"
+    CanBeDismissedByTappingOutsideOfPopup="True">
+    <VerticalStackLayout
+        Spacing="25"
+        Padding="30,0"
+        WidthRequest="260"
+        HeightRequest="450"
+        VerticalOptions="Center"
+        HorizontalOptions="Center">
+        <skia:SKLottieView
+            RepeatCount="-1"
+            WidthRequest="200"
+            HeightRequest="200"
+            Source="progress_loading.json"
+            IsAnimationEnabled="True"/>
+        <skia:SKLottieView
+            RepeatCount="-1"
+            WidthRequest="200"
+            HeightRequest="200"
+            Source="square_loading.json"
+            IsAnimationEnabled="True"/>
+    </VerticalStackLayout>
+</toolkit:Popup>
