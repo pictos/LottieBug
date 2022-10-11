@@ -51,7 +51,10 @@
 	</ItemGroup>
 	<ItemGroup>
 	  <PackageReference Include="SkiaSharp.Extended.UI.Maui" Version="2.0.0-preview.61" />
-	  <PackageReference Include="CommunityToolkit.Maui" Version="1.2.0" />
+	</ItemGroup>
+	<ItemGroup>
+	  <ProjectReference Include="..\MCT\src\CommunityToolkit.Maui.Core\CommunityToolkit.Maui.Core.csproj" />
+	  <ProjectReference Include="..\MCT\src\CommunityToolkit.Maui\CommunityToolkit.Maui.csproj" />
 	</ItemGroup>
 	<ItemGroup>
 	  <MauiXaml Update="MainPopup.xaml">

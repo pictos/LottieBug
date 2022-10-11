@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
+# Visual Studio Version 17
 VisualStudioVersion = 17.0.31611.283
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SKLottieViewBug", "SKLottieViewBug\SKLottieViewBug.csproj", "{C6AD6DCD-BEA3-4C27-8EE9-7669B8699B07}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommunityToolkit.Maui", "MCT\src\CommunityToolkit.Maui\CommunityToolkit.Maui.csproj", "{E3DC3A37-4DD6-4FA7-A7BE-C61E3AF83DD1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommunityToolkit.Maui.Core", "MCT\src\CommunityToolkit.Maui.Core\CommunityToolkit.Maui.Core.csproj", "{62DFA629-0999-48DE-A112-32CBF47450CA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,6 +21,14 @@ Global
 		{C6AD6DCD-BEA3-4C27-8EE9-7669B8699B07}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C6AD6DCD-BEA3-4C27-8EE9-7669B8699B07}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C6AD6DCD-BEA3-4C27-8EE9-7669B8699B07}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{E3DC3A37-4DD6-4FA7-A7BE-C61E3AF83DD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3DC3A37-4DD6-4FA7-A7BE-C61E3AF83DD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3DC3A37-4DD6-4FA7-A7BE-C61E3AF83DD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3DC3A37-4DD6-4FA7-A7BE-C61E3AF83DD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62DFA629-0999-48DE-A112-32CBF47450CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62DFA629-0999-48DE-A112-32CBF47450CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62DFA629-0999-48DE-A112-32CBF47450CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62DFA629-0999-48DE-A112-32CBF47450CA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
